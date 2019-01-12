@@ -1,3 +1,9 @@
+# Forked
+docker build --rm --build-arg PYTHON_DEPS="boto3,h3,psycopg2" --build-arg PYTHON_DEPS="flask_oauthlib>=0.9" -t sdia/docker-airflow .
+
+
+
+
 # docker-airflow
 [![CircleCI](https://circleci.com/gh/puckel/docker-airflow/tree/master.svg?style=svg)](https://circleci.com/gh/puckel/docker-airflow/tree/master)
 [![Docker Build Status](https://img.shields.io/docker/build/puckel/docker-airflow.svg)]()
