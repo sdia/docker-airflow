@@ -1,7 +1,7 @@
 # Forked
 
 ```
-docker build --rm --build-arg PYTHON_DEPS="boto3 h3 psycopg2 awscli pendulum" -t sdia/docker-airflow .
+docker build --rm --build-arg PYTHON_DEPS="boto3 h3 psycopg2 awscli" -t sdia/docker-airflow .
 docker push sdia/docker-airflow
 ```
 
